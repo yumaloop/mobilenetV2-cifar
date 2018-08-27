@@ -3,4 +3,4 @@
 This is an implementation of MobileNetV2 for the CIFAR-10 dataset in Python with Keras/Tensorflow.
 <br>Original paper of MobileNetV2 is here. : https://arxiv.org/pdf/1801.04381.pdf
 
-I've achieved 91.4% validation accuracy score using this model in CIFAR-10 classification task.
+I've achieved 91.47% validation accuracy score using this model in CIFAR-10 classification task.
