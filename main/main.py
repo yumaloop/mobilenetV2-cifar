@@ -61,6 +61,7 @@ print('Model Name: ', model_name)
 from keras.utils import plot_model
 plot_model(model, to_file=model_arch_path, show_shapes=True)
 
+
 '''
 # check the keras class of each layer in model
 for i, layer in enumerate(model.layers):
@@ -70,6 +71,7 @@ for i, layer in enumerate(model.layers):
 for layer in model.layers[:150]:
     layer.trainable = OB
 '''
+
 
 # set learning rate
 learning_rates=[]
@@ -108,7 +110,6 @@ val_loss, val_acc = model.evaluate(X_test, y_test, verbose=0)
 print('Model Name: ', model_name)
 print('Test loss     : {:.5f}'.format(val_loss))
 print('Test accuracy : {:.5f}'.format(val_acc))
-
 
 
 # save model "INSTANCE"
